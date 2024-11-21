@@ -1,0 +1,509 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("DrRay", "Default")
+
+local tab = DrRayLibrary.newTab("Abuse gloves", "1837622801")
+
+tab.newButton("Diamond", "Diamond ability", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Diamond.ClickDetector)
+            task.wait(0.2)        game:GetService("ReplicatedStorage"):WaitForChild("Rockmode"):FireServer()
+end)
+
+tab.newButton("Flash", "Flash abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Flash.ClickDetector)
+            task.wait(0.2)            game:GetService("ReplicatedStorage"):WaitForChild("FlashTeleport"):FireServer()
+end)
+
+tab.newButton("ZZZZ", "Zzzzz abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.ZZZZZZZ.ClickDetector)
+            task.wait(0.2)         game:GetService("ReplicatedStorage"):WaitForChild("ZZZZZZZSleep"):FireServer()
+end)
+
+tab.newButton("Brick", "Brick abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Brick.ClickDetector)
+            task.wait(0.2)          game:GetService("ReplicatedStorage"):WaitForChild("lbrick"):FireServer()
+end)
+
+tab.newButton("Thanos", "Thanos abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Thanos.ClickDetector)
+            task.wait(0.2)         game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer({1})
+end)
+
+tab.newButton("LolBomb", "LolBomb abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.L.o.l.b.o.m.b.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Stun", "Stun abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Stun.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("StunR"):FireServer()
+end)
+
+tab.newButton("Fort", "Fort abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Fort.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("Fortlol"):FireServer()
+end)
+
+tab.newButton("pusher", "Pusher ability", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Pusher.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("PusherWall"):FireServer()
+end)
+
+tab.newButton("Anchor", "Anchor abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Anchor.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("AnchorActivated"):InvokeServer()
+end)
+
+tab.newButton("Golden", "Golden abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Golden.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("Goldify"):FireServer(true)
+end)
+
+tab.newButton("MR", "MR abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.MR.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("Spherify"):FireServer()
+end)
+
+tab.newButton("Hive", "Hive abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Hive.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("replica", "Replica abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Replica.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("Duplicate"):FireServer()
+end)
+
+tab.newButton("Defense", "Defense abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Defense.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("Barrier"):FireServer()
+end)
+
+tab.newButton("Duelist", "Duelist abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Duelist.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("DuelistAbility"):FireServer()
+end)
+
+tab.newButton("Woah", "Woah abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Woah.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("VineThud"):FireServer()
+end)
+
+tab.newButton("Adios", "Adios abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Adios.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("AdiosActivated"):FireServer()
+end)
+
+tab.newButton("Engineer", "Engineer sentry abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Engineer.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("Sentry"):FireServer()
+end)
+
+tab.newButton("Rocky", "Rocky abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Rocky.ClickDetector)
+            task.wait(0.2)
+            game:GetService("ReplicatedStorage"):WaitForChild("RockyShoot"):FireServer()
+end)
+
+tab.newButton("Coil", "Coil abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Coil.ClickDetector)
+            task.wait(0.2)
+            local args = {
+                [1] = game:GetService("Players").LocalPlayer.Character.Coil
+            }
+            game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Ballony", "Balloony ability", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Balloony.ClickDetector)
+            task.wait(0.2)
+            local args = {
+                [1] = game:GetService("Players").LocalPlayer.Character.Balloony
+            }
+            game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+
+tab.newButton("Stop", "Stop abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.STOP.ClickDetector)
+task.wait(0.2)
+
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("STOP"):FireServer(unpack(args))
+end)
+
+tab.newButton("Prop", "Prop abillity", function()
+fireclickdetector(workspace.Lobby.GloveStands.Prop.ClickDetector)
+task.wait(0.2)
+    local args = {
+    [1] = "Brick"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("shield", "Shield abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Shield.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Baller", "Baller abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Baller.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Homerun start", "Home run start", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Homerun.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = {
+        ["start"] = true
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HomeRun"):FireServer(unpack(args))
+end)
+
+tab.newButton("Homerun hit", "Homerun hit", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Homerun.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = {
+        ["finished"] = true
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HomeRun"):FireServer(unpack(args))
+end)
+
+tab.newButton("Whirlwind", "Whirlwind abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Whirlwind.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Slicer", "Slice abillity", function()
+fireclickdetector(workspace.Lobby.GloveStands.Slicer.ClickDetector)
+task.wait(0.2)
+    local player = game.Players.LocalPlayer
+local nearestPlayer = nil
+local nearestDistance = math.huge
+
+for _, otherPlayer in ipairs(game.Players:GetPlayers()) do
+    if otherPlayer ~= player and otherPlayer.Character and otherPlayer.Character:FindFirstChild("HumanoidRootPart") then
+        local distance = (player.Character.HumanoidRootPart.Position - otherPlayer.Character.HumanoidRootPart.Position).Magnitude
+        if distance < nearestDistance then
+            nearestDistance = distance
+            nearestPlayer = otherPlayer
+        end
+    end
+end
+
+if nearestPlayer and nearestPlayer.Character and nearestPlayer.Character:FindFirstChild("HumanoidRootPart") then
+    local args = {
+        [1] = "slash",
+        [2] = nearestPlayer.Character.HumanoidRootPart.CFrame,
+        [3] = Vector3.new(7.714000225067139, -121.56300354003906, -39.900001525878906)
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("Slicer"):FireServer(unpack(args))
+end
+end)
+
+tab.newButton("Excavator", "Excavator start", function()
+   fireclickdetector(workspace.Lobby.GloveStands.Excavator.ClickDetector)
+task.wait(0.2) game:GetService("ReplicatedStorage"):WaitForChild("Excavator"):InvokeServer()
+end)
+
+tab.newButton("Excavator", "Excavator cancel", function()
+   fireclickdetector(workspace.Lobby.GloveStands.Excavator.ClickDetector)
+task.wait(0.2) game:GetService("ReplicatedStorage"):WaitForChild("ExcavatorCancel"):FireServer()
+end)
+
+tab.newButton("Thor", "Thor abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Thor.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = CFrame.new(-0.2575601041316986, 1.1759783029556274, -0.18131893873214722, 0.628711462020874, 0.3641147315502167, -0.6871269345283508, 0.6021366715431213, -0.7870915532112122, 0.1338595300912857, -0.4920913875102997, -0.49790310859680176, -0.7141004204750061)
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ThorAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Pocket", "Pocket ability", function()
+    
+fireclickdetector(workspace.Lobby.GloveStands.Pocket.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Gravity", "Gravity abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Gravity.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Parry dash", "Parry dash abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Parry.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "ParryDash"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Parry", "Parry abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Parry.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Jebaited", "Jebaited abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Jebaited.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = CFrame.new(-1.0235791206359863, -4.3338494300842285, 151.64537048339844, -0.9938803911209106, -8.384213856515998e-08, 0.11046180874109268, -8.517844918287665e-08, 1, -7.378560429316394e-09, -0.11046180874109268, -1.674237282145441e-08, -0.9938803911209106)
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Meteor", "Meteor abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Meteor.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = 23.84374998509884,
+    [2] = 1.2076041661202908
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Oven", "Oven abillity", function() 
+fireclickdetector(workspace.Lobby.GloveStands.Oven.ClickDetector)
+task.wait(0.2)
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local rootPart = character:FindFirstChild("HumanoidRootPart")
+
+if rootPart then
+    local closestPlayer, closestDistance = nil, math.huge
+
+    for _, otherPlayer in ipairs(game.Players:GetPlayers()) do
+        if otherPlayer ~= player and otherPlayer.Character and otherPlayer.Character:FindFirstChild("HumanoidRootPart") then
+            local distance = (otherPlayer.Character.HumanoidRootPart.Position - rootPart.Position).Magnitude
+            if distance < closestDistance then
+                closestDistance = distance
+                closestPlayer = otherPlayer
+            end
+        end
+    end
+
+    if closestPlayer then
+        local targetRoot = closestPlayer.Character.HumanoidRootPart
+        local args = {
+            [1] = CFrame.new(targetRoot.Position)
+        }
+
+        game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+    end
+end
+end)
+
+tab.newButton("Ferryman", "Ferryman ability", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Ferryman.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "Strike"
+}
+
+game:GetService("Players").LocalPlayer.Character.FerrymanStaff.StaffConfig.AbilityEvent:FireServer(unpack(args))
+end)
+
+tab.newButton("Blackhole", "Blackhole abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Blackhole.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Blink", "Blink abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Blink.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "OutOfBody",
+    [2] = {
+        ["dir"] = Vector3.new(0.9418272972106934, 0, 0.3360971510410309),
+        ["ismoving"] = true,
+        ["mousebehavior"] = Enum.MouseBehavior.Default
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Blink"):FireServer(unpack(args))
+end)
+
+tab.newButton("Cancel blink", "Cancel blink", function()
+fireclickdetector(workspace.Lobby.GloveStands.Blink.ClickDetector)
+task.wait(0.2)    
+local args = {
+    [1] = "IntoBody"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Blink"):FireServer(unpack(args))
+end)
+
+tab.newButton("Tableflip", "Tableflip abillity", function()
+   
+fireclickdetector(workspace.Lobby.GloveStands.Tableflip.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Beatdown", "Beatdown abillity", function()
+
+fireclickdetector(workspace.Lobby.GloveStands.Beatdown.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "replicate"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("beatdownevent"):FireServer(unpack(args))
+end)
+
+tab.newButton("Chicken", "Chicken abillity", function()
+    
+fireclickdetector(workspace.Lobby.GloveStands.Chicken.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("BONK", "Bonk abillity", function()
+    
+fireclickdetector(workspace.Lobby.GloveStands.Bonk.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Sbeve", "Sbeve abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Sbeve.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Summon Golem", "Golem abillity", function()
+   
+fireclickdetector(workspace.Lobby.GloveStands.Golem.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Golem", "Release Golem", function()
+  
+  fireclickdetector(workspace.Lobby.GloveStands.Golem.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "release"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("UFO", "UFO pickup abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Ufo.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "pickup"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Button", "UFO speed boost ability", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Ufo.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "boost"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("UFO"):FireServer(unpack(args))
+end)
+
+tab.newButton("UFO", "UFO Pick people up abillity", function()
+    
+fireclickdetector(workspace.Lobby.GloveStands.Ufo.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "ability"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Demolition", "Place demolition C4 abillity", function()
+  fireclickdetector(workspace.Lobby.GloveStands.Demolition.ClickDetector)
+task.wait(0.2) 
+local args = {
+    [1] = "c4"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Demolition", "Explode C4 abillity", function()
+    
+fireclickdetector(workspace.Lobby.GloveStands.Demolition.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("c4"):FireServer()
+end)
+
+tab.newButton("Beachball", "Beachball abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Beachball.ClickDetector)
+task.wait(0.2)
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer()
+end)
+
+tab.newButton("Shotgun", "Shotgun abillity", function()
+    fireclickdetector(workspace.Lobby.GloveStands.Shotgun.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "buckshot"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+tab.newButton("Lawnmower", "Lawnmower abillity", function()
+ 
+   fireclickdetector(workspace.Lobby.GloveStands.Lawnmower.ClickDetector)
+task.wait(0.2)
+local args = {
+    [1] = "lawnmower"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+end)
+
+local tab = DrRayLibrary.newTab("Teleport arena", "1837622801")
+
+tab.newButton("Teleport arena", "Teleports arena", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-5,-5,15))
+end)
